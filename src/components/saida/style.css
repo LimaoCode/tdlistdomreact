@@ -1,0 +1,79 @@
+body {
+  background-color: #333f44;
+}
+.saida-container {
+}
+
+.saida-wrap {
+}
+
+.saida-lista {
+}
+
+.saida-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  border: none;
+  border-radius: 5px;
+  margin: 1% auto;
+  padding: 15px 15px;
+  background-color: #c1ac95;
+}
+
+/*
+.saida-conatiner-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.saida-checkbox{
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+}
+
+
+.saida-checkbox-checked::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(1);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+*/
+.saida-texto {
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.saida-hidden{
+  text-decoration: line-through;
+}
+
+.saida-deletar {
+  padding: 3px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #cdbba7;
+  font-weight: bold;
+}
